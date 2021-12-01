@@ -14,7 +14,7 @@ public class AsyncTestService {
 
     @Async
     public void printAsync(){
-        log.info("1234560");
-        log.debug("888888");
+        log.info("到了异步方法");
+        log.info("888888");
     }
 }
