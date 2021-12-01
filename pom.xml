@@ -11,6 +11,7 @@
     <description>Spring cloud系列学习</description>
     <modules>
         <module>springcloud-sleuth</module>
+        <module>springcloud-sleuth-producer</module>
     </modules>
 
     <properties>
@@ -62,7 +63,7 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>1.18.12</version>
-                <scope>import</scope>
+<!--                <scope>import</scope>-->
             </dependency>
         </dependencies>
     </dependencyManagement>
